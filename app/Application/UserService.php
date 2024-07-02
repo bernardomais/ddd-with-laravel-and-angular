@@ -2,10 +2,10 @@
 
 namespace App\Application;
 
-
+use App\Domain\User\User;
+use App\Domain\User\UserRepositoryInterface;
 use App\Infrastructure\Validation\UserValidator;
-use App\Models\User;
-use Dotenv\Exception\ValidationException;
+use Illuminate\Validation\ValidationException;
 
 class UserService
 {

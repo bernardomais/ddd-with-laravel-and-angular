@@ -2,7 +2,8 @@
 
 namespace App\Infrastructure\Persistence;
 
-use App\Models\User;
+use App\Domain\User\User;
+use App\Domain\User\UserRepositoryInterface;
 
 class UserRepository implements UserRepositoryInterface
 {

@@ -2,7 +2,6 @@
 
 namespace App\Infrastructure\Validation;
 
-use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Validator;
 
 class UserValidator
