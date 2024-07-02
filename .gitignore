@@ -17,7 +17,21 @@ public_html/hot
 
 storage/*.key
 .env
+.env.backup
+.env.production
 Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
+
+
+/.phpunit.cache
+/public/build
+/storage/*.key
+
+.phpactor.json
+.phpunit.result.cache
+auth.json
+/.fleet
+/.idea
+/.vscode
